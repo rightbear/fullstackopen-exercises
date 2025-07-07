@@ -6,3 +6,5 @@ This course serves as an introduction to modern web application development with
 The course covers testing, configuration and environment management, the use of databases for storing the application’s data amongst other things.
 
 ## Table of exercises
+
+[Part 0: Fundamentals of Web apps](https://github.com/rightbear/fullstackopen-exercises/tree/main/part0)
