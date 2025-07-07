@@ -1,4 +1,4 @@
-#[Full Stack open 2025](https://fullstackopen.com/en/)
+# [Full Stack open 2025](https://fullstackopen.com/en/)
 This github repository contains my solutions of exercises for the Full Stack open.
 
 ## Course Introduction

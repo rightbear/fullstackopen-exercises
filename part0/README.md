@@ -5,3 +5,4 @@ In this part, we will familiarize ourselves with the practicalities of taking th
 
 ## Exercise Information
 Finish date: 2025/07/07
+Sequence diagram tool:  Mermaid syntax
