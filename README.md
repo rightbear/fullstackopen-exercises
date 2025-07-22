@@ -11,4 +11,11 @@ The course covers testing, configuration and environment management, the use of 
 
 - General info
 - Fundamentals of Web apps
-* [See the answers](https://github.com/rightbear/fullstackopen-exercises/tree/main/part0)
+- [See the answers](https://github.com/rightbear/fullstackopen-exercises/tree/main/part0)
+
+### [Part 1: Introduction to React](https://fullstackopen.com/en/part1)
+
+- Introduction to React
+- JavaScript
+- Component state, event handlers
+- A more complex state, debugging React apps
