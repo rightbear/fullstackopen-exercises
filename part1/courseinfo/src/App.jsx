@@ -4,11 +4,23 @@ const Header = (props) => {
   )
 }
 
-const Content = (props) => {
+// Use destructuring to props
+const Part = ({ part, exercise }) => {
   return (
     <p>
-        {props.part} {props.exercise}
+        {part} {exercise}
     </p>
+  )
+}
+
+// Use destructuring to props
+const Content = ({ parts, exercises }) => {
+  return (
+    <div>
+      <Part part={parts[0]} exercise={exercises[0]} />
+      <Part part={parts[1]} exercise={exercises[1]} />
+      <Part part={parts[2]} exercise={exercises[2]} />
+    </div>
   )
 }
 
@@ -19,7 +31,6 @@ const Total = (props) => {
     </p>
   )
 }
-
 
 const App = () => {
   const course = 'Half Stack application development'
@@ -33,9 +44,10 @@ const App = () => {
   return (
     <div>
       <Header course={course} />
-      <Content part={part1} exercise={exercises1} />
-      <Content part={part2} exercise={exercises2} />
-      <Content part={part3} exercise={exercises3} />
+      <Content 
+        parts={[part1, part2, part3]}
+        exercises={[exercises1, exercises2, exercises3]}
+      />
       <Total sum={exercises1 + exercises2 + exercises3} />
     </div>
   )
